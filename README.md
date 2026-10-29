@@ -18,7 +18,7 @@ To integrate `XMediatorMintegral` into your Xcode project using Swift Package Ma
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/x3mads/xmediator-mintegral-swift-package", exact: "8.1.700")
+    .package(url: "https://github.com/x3mads/xmediator-mintegral-swift-package", exact: "8.1.800")
 ]
 ```
 

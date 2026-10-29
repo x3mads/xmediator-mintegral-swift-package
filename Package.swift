@@ -8,7 +8,7 @@ let package = Package(
         .library(name: "XMediatorMintegral", targets: ["XMediatorMintegralTarget"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/Mintegral-official/MintegralAdSDK-Swift-Package.git", exact: "8.1.7"),
+        .package(url: "https://github.com/Mintegral-official/MintegralAdSDK-Swift-Package.git", exact: "8.1.8"),
         .package(url: "https://github.com/x3mads/xmediator-swift-package.git", .upToNextMajor(from: "1.145.0")),
     ],
     targets: [
@@ -24,8 +24,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "XMediatorMintegral",
-            url: "https://ios-artifact-registry.x3mads.com/cocoapods/XMediatorMintegral/XMediatorMintegral-8.1.7.0.zip",
-            checksum: "fe77b4fbb0657de71db38cc3fe49d6e91757409a5b4cf72bf1c649c24fab4fd1"
+            url: "https://ios-artifact-registry.x3mads.com/cocoapods/XMediatorMintegral/XMediatorMintegral-8.1.8.0.zip",
+            checksum: "2c886bc9c4a0791f45b7b54dd4a8c6829916908d8ccca24436c937554e730315"
         ),
     ]
 )
